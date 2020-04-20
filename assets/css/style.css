@@ -2,6 +2,9 @@
 	--headerFont: 'Libre Baskerville', serif;
 	--textFont: 'Source Sans Pro', sans-serif;
 }
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	font-size: 1em;
@@ -163,6 +166,8 @@ iframe {
 footer {
 	background-color: black;
 	font-size: 1.1rem;
+	color: aliceblue;
+	font-weight: 500;
 }
 
 footer .container {
@@ -170,7 +175,7 @@ footer .container {
 }
 
 footer a {
-	color: #818181;
+	color: inherit;
 }
 footer a:hover {
 	color: #bf9f62;
